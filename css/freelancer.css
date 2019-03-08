@@ -53,11 +53,11 @@ hr.star-light:after {
 }
 
 hr.star-dark {
-  border-color: #2C3E50;
+  border-color: #000;
 }
 
 hr.star-dark:after {
-  color: #2C3E50;
+  color: #000;
   background-color: white;
 }
 
@@ -101,6 +101,20 @@ section h2 {
   height: 3.5rem;
   background-color: rgba(33, 37, 41, 0.5);
   line-height: 3.1rem;
+}
+
+@media (max-width: 978px) {
+  .logoImg {
+    margin-top: -50%;
+    margin-bottom: -45% !important;
+  }
+}
+
+@media (min-width: 978px) {
+  .logoImg {
+    margin-top: -450px;
+    margin-bottom: -450px !important;
+  }
 }
 
 #mainNav {
@@ -327,12 +341,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
+  background-color: #000;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: black;
 }
 
 a {
@@ -352,7 +366,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #000 !important;
 }
 
 .text-primary {
@@ -360,7 +374,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: #000 !important;
 }
 
 .btn-primary {
@@ -374,11 +388,11 @@ a:focus, a:hover, a:active {
 }
 
 .btn-secondary {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #000;
+  border-color: #000;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #1a252f;
-  border-color: #1a252f;
+  background-color: black;
+  border-color: black;
 }
