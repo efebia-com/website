@@ -113,7 +113,7 @@ section h2 {
 @media (min-width: 978px) {
   .logoImg {
     margin-top: -450px;
-    margin-bottom: -450px !important;
+    margin-bottom: -400px !important;
   }
 }
 
