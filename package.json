@@ -3,7 +3,8 @@
     "name": "startbootstrap-freelancer",
     "version": "5.0.3",
     "scripts": {
-        "start": "gulp watch"
+        "start": "gulp watch",
+        "app": "node app.js"
     },
     "description": "A freelancer portfolio HTML theme for Bootstrap.",
     "keywords": [
@@ -31,6 +32,10 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.7.2",
         "bootstrap": "4.3.1",
+        "body-parser": "^1.18.2",
+        "dotenv": "^4.0.0",
+        "express": "^4.16.2",
+        "helmet": "^3.15.0",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1",
         "magnific-popup": "^1.1.0"
