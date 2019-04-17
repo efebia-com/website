@@ -248,6 +248,9 @@ header.masthead h2 {
   .portfolio .portfolio-item {
     margin-bottom: 30px;
   }
+  .portfolio .portfolio-item-cal {
+    margin-bottom: 38px;
+  }
 }
 
 .portfolio-modal .portfolio-modal-dialog {
