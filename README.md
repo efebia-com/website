@@ -1,7 +1,6 @@
-#Efebia.com website repository
+# Efebia.com website repository
 
-Thanks to Blackrock Digital
-
+## Thanks to [Blackrock Digital](https://github.com/BlackrockDigital/startbootstrap-freelancer) for Bootstrap template
 
 
 
